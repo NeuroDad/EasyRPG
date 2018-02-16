@@ -1,0 +1,17 @@
+Rassenboni:
+- Alle Skills bis auf 6 einen spez-bonus von +1
+- Pro Modul 1 Skillbonus
+- 1 Skill skillbonus ersetzt spez-bonus
+- 50/50 verteilen zwischen nützlich als Abenteurer und dem bisherigen Beruf
+
+Ränge:
+- 7 Ränge, max 3 pro Skill
+
+Gegenstände:
+- ein besonderes Erbstück oder dergeleichen oder 2 gewöhnliche Gegenstände
+
+Geld:
+Dem STand entsprechedn ein paar Münzen
+
+
+
