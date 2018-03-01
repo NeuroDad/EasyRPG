@@ -1,1 +1,3 @@
-.bak
+*.bak
+pictures_bak
+.DS_Store
