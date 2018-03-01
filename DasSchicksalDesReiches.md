@@ -8,10 +8,12 @@ Wie sich dieser Charakter entwickelt und welchen Einfluss er auf die Welt haben 
 
 Es gibt daher auch keine Regeln die ihr im Vorfeld kennen müsst!
 Beginnt nun einfach mit Karte 1 der Geschichte „Das Schicksal des Reiches“.
+END
 
 
-Prolog
-**Karte 1**:
+VAR_CAPT: Prolog
+VAR_DESC: Start
+VAR_CARD: Karte 1
 Die Gruppe aus Kadena und Amber steht vor der 10 Meter hohen Statue von Eran II. 
 Er war der Begründer des Kaiserreichs von Brander. 
 Die Statue steht in der Mitte von Kaln, der Hauptstadt von Brander, auf dem zentralen Reichsplatz.
@@ -22,10 +24,12 @@ Sie wollen zum Haus des Regulators.
 Erans Statue keinen Besuch abzustatten, wo ihr Weg sie so dicht an dem steinernen Koloss vorbei brachte haben sich die Abenteurer jedoch nicht nehmen lassen.
 
 Weiter auf Karte 2.
+END
 
 
-Prolog
-**Karte 2**:
+VAR_CAPT: Prolog
+VAR_DESC: Char Vorstellung
+VAR_CARD: Karte 2
 Die Abenteurer, das sind Brottor der Schmied aus Amber, ein Zwerg von 1,50 Meter Größe und stämmiger Natur. 
 Swalin, ein Jäger aus den nördlichen Wäldern von Kadena. 
 Nurn, ein Halbling aus einer ländlichen Gegend des Königreichs Amber und Sihnafi, eine unbedeutende Angehörige einer bedeutenden Adelsfamilie von Kadena. 
@@ -34,20 +38,24 @@ Sie ist eine elfische junge Frau die sich eigentlich mehr für Bücher als die W
 Egal ob sie freiwillig hier sind oder in ihre Aufgabe gezwungen wurden, sie alle waren gestern angereist um den Regulator heute einen Besuch abzustatten. 
 
 Weiter auf Karte 3.
+END
 
 
-Prolog
-**Karte 3**:
+VAR_CAPT: Prolog
+VAR_DESC: Char Wahl
+VAR_CARD: Karte 3
 Sucht nun jeder einen der 4 Charakter aus den ihr spielen wollt. Zu einem Charakter gehören: 
 der Charakterbogen: hierauf ist verzeichnet was euer Charakter kann und hierauf verzeichnet ihr wenn ihr eine Fähigkeit verwendet habt.
 Der Fähigkeitenbogen: hier wird verzeichnet wie euer Charakter besser wird in dem was er tut.
 Das Schicksalsdeck: Karten die das Unvorhergesehene in der Welt repräsentieren. Zu Beginn sind hier Karten mit den Zahlen 1 bis 6 enthalten. Die Zahlen 2 und 5 sind jeweils 2 mal vorhanden. Nurn hat keine 1 im Deck, da Halblinge Glück haben und vom Schicksal begünstigt sind.
 
 Sobald ihr euch euren Charakter ausgesucht habt, behaltet ihr diese Karte und geht weiter zu Karte 4.
+END
 
 
-Prolog
-**Karte 4**:
+VAR_CAPT: Prolog
+VAR_DESC: Erste Probe
+VAR_CARD: Karte 4
 Ihr vier jungen Leute betrachtet die Statue von Eran II andächtig.
 
 Zieht bitte jeder 3 Karten aus eurem gemischten Schicksalsdeck.
@@ -60,22 +68,43 @@ Dies war eine Probe auf Wahrnehmung (Sehen). Dies bedeutet dass die Fähigkeit W
 
 Unabhängig davon ob ihr die Probe geschafft habt oder nicht dürft ihr auf dem Charakterbogen das Kästchen bei Wahrnehmung ankreuzen um zu markieren dass ihr diese Fähigkeit eingesetzt habt.
 
-Nehmt euch Karte 15 lest sie durch wenn ihr noch einmal erklärt haben wollt wie eine Probe funktioniert und behaltet die Karte anschließend.
+Nehmt euch Karte 6 lest sie durch wenn ihr noch einmal erklärt haben wollt wie eine Probe funktioniert und behaltet die Karte anschließend.
 
-Nun geht es weiter bei Karte 6.
+Nun geht es weiter bei Karte 7.
+END
 
 
-Prolog
-**Karte 5**:
+VAR_CAPT: Prolog
+VAR_DESC: Erfolg Wahrnehmung - Erster Hinweis auf KFK
+VAR_CARD: Karte 5
 Auf der Rückseite von Erans Statue am Sockel ist im Schatten ein kleines Symbol zu sehen:
-Unter dem Zeichen sind mit grüner Farbe die Buchstaben „VKIU“ und daneben mit der selben Farbe die Buchstaben „KFk“ zu erkennen.
+Unter dem Zeichen sind mit grüner Farbe die Buchstaben „VKIU“ und daneben mit der selben Farbe die Buchstaben „KFK“ zu erkennen.
 Leider sagen euch diese Buchstaben und das Symbol nichts und verwundert und kopfschüttelnd tretet ihr wieder vor die Statue.
 
 Bewahrt diese Karte auf, dann geht es zurück zur vorherigen Karte.
+END
 
 
-Prolog
-**Karte 6**:
+VAR_CAPT: Prolog
+VAR_DESC: Probe erklärt
+VAR_CARD: Karte 6
+Proben
+Immer wenn in der Geschichte etwas passiert dessen Konsequenzen von den Fähigkeiten der Charaktere abhängen wird eine Probe gemacht.
+Es werden 3 Karten gezogen und mit der zugehörigen Fähigkeit addiert. Ist das Ergebnis höher oder gleich dem Schwierigkeits-Wert der Aufgabe ist die Aktion gelungen, ansonsten schlägt sie fehl. Legt danach die gezogenen Karten beiseite. Gemischt werden die Karten erst wenn ihr keine Karten mehr zum ziehen habt.
+
+Wenn ihr z.B. eine Felswand erklimmen wollt so ist das eine Probe auf Akrobatik (Klettern).
+Dies bedeutet dass die Fähigkeit Akrobatik getestet wurde und man die Spezialisierung Klettern als Bonus erhält soweit vorhanden.
+
+Nehmen wir an Swalin, unerfahren wie er zu Beginn des Abenteuers war, versucht besagte Felswand zu erklettern. Er hat Akrobatik 0 aber einen Bonus auf Klettern von 1. Er zieht 3 Karten,  2, 5, 6. Damit macht er die Probe mit 14. Die Felswand war trocken und mit vielen heraussehenden Steinen so dass der Schwierigkeitsgrad nur eine 12 war - Swalin kann die Felswand also hoch klettern. Würde es gerade regnen und die Felswand wäre Nass könnte der Schwierigkeitsgrad bei 14 liegen, dann würde Swalin mit Ach und Krach oben ankommen, geschafft wäre die Probe dennoch. Ohne Steine die weit hervorstehen oder vielleicht losen Steinen könnte der Schwierigkeitsgrad auch 16 sein, dann würde Swalin nicht hoch klettern können, aufgeben und die Probe wäre misslungen. 
+
+Unabhängig davon ob die Probe geschafft ist oder nicht darf auf dem Charakterbogen das Kästchen bei Akrobatik ankreuzt werden um zu markieren dass diese Fähigkeit eingesetzt wurde.
+An bestimmten Stellen in der Geschichte gibt es Trainingspunkte die ihr verwenden könnt um zu versuchen besser zu werden in Fähigkeiten die ihr verwendet habt, deswegen markiert was ihr eingesetzt habt. 
+END
+
+
+VAR_CAPT: Prolog
+VAR_DESC: Vorstellung beim Regulator
+VAR_CARD: Karte 7
 „Wollen wir weiter?“, fragt Brottor mit dem für Zwerge aus Amber typischen Akzent.
 Die anderen nicken und man läßt Eran II zurück auf seinem Platz und geht in Richtung Regulator Haus.
 
@@ -93,11 +122,14 @@ Swalin hingegen wurde vom Kommunikator eine nennenswerte Summe an wenigen Gold- 
 Brottor berichtet dass er nun das Alter des Beweises erreicht hat und er sich gerne im Dienste Brander als würdig für seinen Clan erweisen würde.
 Nurn hingegen schweigt.
 
-Weiter auf Karte 7.
+Weiter auf Karte 8.
+END
 
 
-Prolog
-**Karte 7**:
+VAR_CAPT: Prolog
+VAR_DESC: Anwerben der Gruppe
+VAR_CARD: Karte 8
+
 Der Regulator mustert seine Gäste. Man kann seinem Blick ansehen dass er euch für zu jung und unerfahren einschätzt.
 
 “Es gibt da eine Aufgabe die schon länger unerledigt ist, da uns die Ressourcen fehlen jeder Einbildung der Bauern in der Provinz nach zu gehen und hierfür ausgebildete Soldaten zu schicken. 
@@ -106,66 +138,84 @@ Nachdem nun auch ein Kind verschwunden ist wird die Lage in der Region angespann
 
 Ich gehe davon aus dass es keine große Sache ist. Eine kleine Gruppe von Gesetzlosen wahrscheinlich. Eine große Gruppe wäre aufgefallen.
 
-Macht eine Probe auf Kombinatorik (Absicht erkennen) 14, also 3 Karten ziehen und mit eurem jeweiligen Wert auf Kombinatorik (ggf. zusätzlich einem Bonus von Absicht erkennen) addieren - ist die Summe 14 oder mehr liest derjenige Karte 8 durch.
+Macht eine Probe auf Kombinatorik (Absicht erkennen) 14, also 3 Karten ziehen und mit eurem jeweiligen Wert auf Kombinatorik (ggf. zusätzlich einem Bonus von Absicht erkennen) addieren - ist die Summe 14 oder mehr liest derjenige Karte 9 durch.
 
-Weiter bei Karte 9
+Weiter bei Karte 10
+END
 
 
-Prolog
-**Karte 8**:
+VAR_CAPT: Prolog
+VAR_DESC: Probe Absicht erkennen gelungen
+VAR_CARD: Karte 9
+
 Der Regulator wirkt leicht nervös, wahrscheinlich spielt er die Vorkommnisse etwas runter.
 Du glaubst dass er die Situation tatsächlich für nebensächliche Querelen der Bewohner gehalten hat und nun, da sich die Vorfälle häufen, Bedenken hat man könnte ihm Nachlässigkeit vorwerfen ob seines nicht Handelns.
 
 Legt diese Karte aus zum Zeichen das ihr diese Probe geschafft habt.
-Dann geht es weiter bei Karte 9.
+Dann geht es weiter bei Karte 10.
+END
 
 
-Prolog
-**Karte 9**:
+VAR_CAPT: Prolog
+VAR_DESC: Die Aufgabe
+VAR_CARD: Karte 10
+
 „Schaut euch in der Gegend um und wenn möglich setzt dem Treiben ein Ende“ fährt der Regulator fort. „Riskiert aber nicht zu viel, ich möchte nicht dass unerfahrene gesetzestreue Bürger die dem Reich dienen, wegen so etwas zu Schaden kommen. Solltet ihr also herausfinden dass es sich doch um eine größere Bedrohung handelt, fordert Verstärkung an indem ihr den nächstgelegenen Kommunikator der Region aufsucht. In dem Ort Geberacht gibt es einen. Dort gibt es auch ein Wirtshaus mit einigen bezahlbaren Zimmern.”
 
-Weiter bei Karte 10:
+Weiter bei Karte 11:
+END
 
 
-Prolog
-**Karte 10**:
+VAR_CAPT: Prolog
+VAR_DESC: Feilschen mit dem Regulator
+VAR_CARD: Karte 11
+
 „…bezahlbar ist ein gutes Stichwort!“, meldet sich nun auch Nurn zu Wort.
 „Welche materielle Gegenleistung können wir denn für unsere Mühen erwarten?“
 
 Der Regulator blickt euch musternd an.
 Bitte macht eine Probe auf Kommunikation (Diplomatie). 
-Liegt Karte 8 aus? Dann erhaltet ihr einen zusätzlichen Bonus von +1, da euch klar ist dass der Regulator wohl auf euch angewiesen ist. Auf die Schnelle wird er niemand anderen bekommen.
+Liegt die 8er Karte aus? Dann erhaltet ihr einen zusätzlichen Bonus von +1, da euch klar ist dass der Regulator wohl auf euch angewiesen ist. Auf die Schnelle wird er niemand anderen bekommen.
 
 Diese Probe hat keinen festen Schwierigkeitsgrad, ihr bekommt stattdessen das höchste Ergebnis welches einer von euch erreicht als Goldmünzen zugesagt.
 
-Bitte nehmt Karte 11 für eine Erklärung der Währung in Brander lest diese durch und behaltet sie.
+Bitte nehmt Karte 12 für eine Erklärung der Währung in Brander lest diese durch und behaltet sie.
 
 
 „Das ist ein ordentliches Endgeld für so - verzeiht mir wenn ich es direkt sage - unerfahrene Bürger wie ihr mir zu sein scheint.
 Ihr erhalten die Hälfte jetzt und die andere Hälfte wenn ihr euch nach Erledigung der Aufgabe hier wieder meldet, so wie es üblich ist“, schließt der Regulator nachdem ihr euch einig geworden seid.
 
-Weiter bei Karte 12.
+Weiter bei Karte 13.
+END
 
 
-Prolog
-**Karte 11**: Währung
+VAR_CAPT: Prolog
+VAR_DESC: Währung erklärt
+VAR_CARD: Karte 12
+Währung.
 Eine Goldmünze entspricht einer Unze Gold und damit zum Vergleich in etwa knapp 1000€ bzw. gut 1000$ Kaufkraft im Jahr 2018 bei uns.
 Tatsächlich eingekauft wird jedoch mit Goldmünzen nur wenn sehr teure Dinge gehandelt werden wie etwa Pferde Häuser oder dergleichen. Ansonsten sind die sogenannten Kronen üblich, Münzen die ebenfalls aus Gold bestehen aber nur aus 1/10 Unze. Sehr häufig verwendet werden Silberlinge mit dem 1/100 Wert einer Goldmünze (1/10 Kronen) und Kupfermünzen, welche relativ groß und schwer sind und 1/1000 Golmünzen-Wert haben (1/100 Krone, 1/10 Silberling).
 Eine Kupfermünze entspricht daher etwa einem knappen Euro oder einem guten Dollar in heutiger Kaufkraft.
+END
 
 
-Prolog
-**Karte 12**:
+VAR_CAPT: Prolog
+VAR_DESC: Regulator bezahlt und entläßt die Gruppe
+VAR_CARD: Karte 13
+
 „Ich wünsche euch viel Erfolg“, mit diesen Worten schiebt euch der Regulator ein Bündel aus Papieren und ein Säckchen zu in das er Goldmünzen, Kronen und Silberlinge abzählt.
 
 Das Bündel enthält eine Landkarte in der alle wichtigen Orte markiert sind (nehmt die Karte „Geberacht und Umgebung“ zur Hand) und eine Karte des Ortes Geberacht.
 Zudem beinhaltet es einen Brief an den unbestimmten Kommunikator in dem verzeichnet ist dass ihr euch der Sache mit der Aktennummer VXI-I annehmt und die Bezahlung vom Regularium Kadena bereits behandelt wurde.
 
-Weiter bei Karte 13.
+Weiter bei Karte 14.
+END
 
 
-Prolog
-**Karte 13**:
+VAR_CAPT: Prolog
+VAR_DESC: Reiseplanung
+VAR_CARD: Karte 14
+
 Ihr schaut euch die Karte genauer an und seht dass ihr wohl recht lang der Nordstraße einer der Hauptrouten des Reichs folgen könnt.
 Die Nordstraße ist sehr gut gepflastert und gut bewacht um den Handel zu schützen.
 Danach würdet ihr nach Nordosten der Elsanstraße folgen, benannt nach dem Fluß Elsan dessen Tal die Straße folgt. 
@@ -176,35 +226,26 @@ Zu Fuß dürfte man für die Strecke etwa 5-6 Tage brauchen, wenn ihr eure Ausr�
 Ein Pferd, Maultier oder Esel der einen Karren zieht muss jedoch versorgt sein.
 Wenn ihr besonders gut mit dem Regulator verhandelt habt könnt ihr euch vielleicht auch 4 Reittiere leisten, dann würde die Reise recht unbeschwerlich in maximal 4 Tagen gelingen. 
 
-Weiter bei Karte 14.
+Weiter bei Karte 15.
+END
 
 
-Prolog
-**Karte 14**:
+VAR_CAPT: Prolog
+VAR_DESC: Vorbereitung
+VAR_CARD: Karte 15
+
 Ihr wollt euch ein oder mehrere Pferde, Maultiere oder Esel kaufen? Die findet ihr in den Stallungen (Karte 20).
 Ihr wollt einen Karren kaufen? Da solltet ihr beim Radmacher vorbei schauen. (Karte 30)
 Ihr wollt euch für die Reise ausrüsten? Dann sucht den Gemischtwarenladen auf. (Karte 40)
 Ihr wollt in der Schmiede vorbei schauen, denn die Reise könnte gefährlich werden und da würde ein Dolch nicht schaden? (Karte 50)
 Beim Sattler könnt ihr euch auch mit einem Waffenrock oder einem Gambeson schützen. (Karte 55)
-Da der Tag schon etwas fortgeschritten ist, könnt ihr euch auch zunächst eine Unterkunft suchen. Der Schimmel ist ein Wirtshaus mit einigen bezahlbaren Zimmern (Karte 60). Die Pension Seeblick ist auf Reisende Spezialisiert die hier durch kommen und ist etwas gehobener Natur (Karte 70). Ihr könnt natürlich auch ein paar Münzen sparen und die Unterkünfte der Tagelöhner aufsuchen, hier sind immer ein paar Zimmer frei (Karte 80). 
- 
-
-Prolog
-**Karte 15**: Proben
-Immer wenn in der Geschichte etwas passiert dessen Konsequenzen von den Fähigkeiten der Charaktere abhängen wird eine Probe gemacht.
-Es werden 3 Karten gezogen und mit der zugehörigen Fähigkeit addiert. Ist das Ergebnis höher oder gleich dem Schwierigkeits-Wert der Aufgabe ist die Aktion gelungen, ansonsten schlägt sie fehl. Legt danach die gezogenen Karten beiseite. Gemischt werden die Karten erst wenn ihr keine Karten mehr zum ziehen habt.
-
-Wenn ihr z.B. eine Felswand erklimmen wollt so ist das eine Probe auf Akrobatik (Klettern).
-Dies bedeutet dass die Fähigkeit Akrobatik getestet wurde und man die Spezialisierung Klettern als Bonus erhält soweit vorhanden.
-
-Nehmen wir an Swalin, unerfahren wie er zu Beginn des Abenteuers war, versucht besagte Felswand zu erklettern. Er hat Akrobatik 0 aber einen Bonus auf Klettern von 1. Er zieht 3 Karten,  2, 5, 6. Damit macht er die Probe mit 14. Die Felswand war trocken und mit vielen heraussehenden Steinen so dass der Schwierigkeitsgrad nur eine 12 war - Swalin kann die Felswand also hoch klettern. Würde es gerade regnen und die Felswand wäre Nass könnte der Schwierigkeitsgrad bei 14 liegen, dann würde Swalin mit Ach und Krach oben ankommen, geschafft wäre die Probe dennoch. Ohne Steine die weit hervorstehen oder vielleicht losen Steinen könnte der Schwierigkeitsgrad auch 16 sein, dann würde Swalin nicht hoch klettern können, aufgeben und die Probe wäre misslungen. 
-
-Unabhängig davon ob die Probe geschafft ist oder nicht darf auf dem Charakterbogen das Kästchen bei Akrobatik ankreuzt werden um zu markieren dass diese Fähigkeit eingesetzt wurde.
-An bestimmten Stellen in der Geschichte gibt es Trainingspunkte die ihr verwenden könnt um zu versuchen besser zu werden in Fähigkeiten die ihr verwendet habt, deswegen markiert was ihr eingesetzt habt. 
+Da der Tag schon etwas fortgeschritten ist, könnt ihr euch auch zunächst eine Unterkunft suchen. Der Schimmel ist ein Wirtshaus mit einigen bezahlbaren Zimmern (Karte 60). Die Pension Seeblick ist auf Reisende Spezialisiert die hier durch kommen und ist etwas gehobener Natur (Karte 80). Ihr könnt natürlich auch ein paar Münzen sparen und die Unterkünfte der Tagelöhner aufsuchen, hier sind immer ein paar Zimmer frei (Karte 90). 
+END
 
 
-Prolog
-**Karte 20**:
+VAR_CAPT: Prolog
+VAR_DESC: Stallungen
+VAR_CARD: Karte 20
 Die Stallungen. 
 Der Geruch von Pferdedung ist das Erste was euch bestätigt dass ihr auf dem richtigen Weg seid.
 Als ihr dann um die Ecke biegt könnt ihr die Stallungen auch schon den Weg im Aussenbereich der Stadt sehen. 
@@ -219,22 +260,26 @@ Esel 2 GM; 80kg normale Traglast; Eine Portion Tierfutter/Tag Heu, Gras, …
 Pony 4 GM; 80kg normale Traglast; Eine Portion Tierfutter/Tag Heu, Gras, …
 Portion Futter 1 Silberling 
 
-Zurück zu Karte 14.
+Zurück zu Karte 15.
+END
 
 
-Prolog
-**Karte 30**:
+VAR_CAPT: Prolog
+VAR_DESC: Radmacher
+VAR_CARD: Karte 30
 Radmacher.
 ToDo Text
 Karren 2 GM, 500kg Traglast
 Kutsche 10 GM, 500kg Traglast
 Handkarren 1 GM, 300kg Traglast
 
-Zurück zu Karte 14.
+Zurück zu Karte 15.
+END
 
 
-Prolog
-**Karte 40**:
+VAR_CAPT: Prolog
+VAR_DESC: Gemischtwarenladen
+VAR_CARD: Karte 40
 Gemischtwarenladen.
 ToDo Text
 Rucksack Leder 2 Kronen; +2 auf Kraftakt (Tragen); 20 Liter
@@ -252,11 +297,13 @@ Fackel 1 Silberling; 5 Meter Licht; 1 Stunde Brennzeit
 Zelt 4 Kronen; 2 Personen + Gepäck oder 3 Personen
 Kerze 2 Kupfer; 2 Meter Licht, 4 Stunden Brennzeit
 
-Zurück zu Karte 14.
+Zurück zu Karte 15.
+END
 
 
-Prolog
-**Karte 50**:
+VAR_CAPT: Prolog
+VAR_DESC: Schmied
+VAR_CARD: Karte 50
 Die Schmiede.
 ToDo: Text 
 
@@ -267,11 +314,13 @@ ToDo: Text
 1x Kriegskeule, 1 Krone
 2x Handaxt, 3 Kronen
 
-Zurück zu Karte 14.
+Zurück zu Karte 15.
+END
 
 
-Prolog
-**Karte 55**:
+VAR_CAPT: Prolog
+VAR_DESC: Sattler
+VAR_CARD: Karte 55
 Sattler.
 ToDo: Text
 
@@ -279,49 +328,89 @@ ToDo: Text
 1x Waffenrock, 1 Gold
 1x Schuppenrüstung, 5 Gold
 
-Zurück zu Karte 14.
+Zurück zu Karte 15.
+END
 
 
-Prolog
-**Karte 60**:
+VAR_CAPT: Prolog
+VAR_DESC: Wirtshaus zum Schimmel
+VAR_CARD: Karte 60
 Wirtshaus zum Schimmel.
 Warm ist es im Schankraum. Das ist das erste was euch auffällt als ihr das Wirtshaus betretet.
 Es sind schon einige Gäste hier, was sowohl zur Wärme wie auch zum Lärm beiträgt.
 Warum seid ihr hier?
-Ihr müsst endlich was Essen, den ganzen Tag habt ihr noch nichts vernünftiges gegessen. (Karte 84)
-Ihr braucht ein Zimmer. Dann sucht ihr besser nach dem Wirt. (Karte 85)
+Ihr müsst endlich was Essen, den ganzen Tag habt ihr noch nichts vernünftiges gegessen. (Karte 61)
+Ihr braucht ein Zimmer. Dann sucht ihr besser nach dem Wirt. (Karte 62)
+END
 
 
+VAR_CAPT: Prolog
+VAR_DESC: Tisch suchen und Zeug da lassen
+VAR_CARD: Karte 61
+ToDo
+Weiter bei Karte 62.
+END
 
-Prolog
-**Karte 61**:
+
+VAR_CAPT: Prolog
+VAR_DESC: Begegnung mit Rüpel
+VAR_CARD: Karte 62
+
+VAR_E1  
+
+Ist E1 bereits angekreuzt? Dann weiter bei Karte 83
+Ansonsten geht es hier weiter:
+
+Als ihr euch vor zur Theke begeben wollt rempelt ein Betrunkener großer Kerl Sihnafi an.
+„He du Elfenschlampe, steh mir nicht im Weg!“, herrscht er Sihnafi an und schubst sie aufgebracht zur Seite.
+Wie willst du reagieren Sihnafi?
+Kommunikation (Diplomatie) (Karte 63)
+Nahkampf (Karte 64)
+Deine Gefährten auffordernd anblicken (Karte 65)
+Schutzfeld aufbauen (Karte 66)
+Mit Druckwelle aus dem Weg schieben (Karte 67)
+Betrunken wie der Mann ist sollte sein Geist leicht mit Magie beeinflußbar sein (Karte 68)
+Zunächst mal den Mann mustern (Karte 69)
+
+Legt diese Karte aus damit ihr später Zugriff darauf habt.
+END
+
+
+VAR_CAPT: Prolog
+VAR_DESC: Probe Diplomatie
+VAR_CARD: Karte 63
+
 Mache eine Probe auf Kommunikation (Diplomatie) 13.
-Gelingt sie geht es weiter auf Karte 75, ansonsten bei Karte 76.
+Gelingt sie geht es weiter auf Karte 72, ansonsten bei Karte 73.
 In jedem Fall markiere dass du Kommunikation benutzt hast.
+END
 
 
+VAR_CAPT: Prolog
+VAR_DESC: Nahkampf
+VAR_CARD: Karte 64
+ToDo: , dann Kampf Karte 84
+END
 
-Prolog
-**Karte 62**:
-ToDo: Nahkampf, dann Kampf 74
 
-
-
-Prolog
-**Karte 63**:
+VAR_CAPT: Prolog
+VAR_DESC: Gefährten schreiten ein
+VAR_CARD: Karte 65
 Etwas überrumpelt schauen sich die drei Männer der Gruppe an.
 Dann schieben sie sich vor die Elfe.
 Was wollt ihr tun?
-Kommunikation (Diplomatie) (Karte 77)
-Nahkampf (Karte 82)
-Rüpel aus dem Weg schieben (Karte 83)
-Zunächst mal den Mann mustern (Karte 67)
+Kommunikation (Diplomatie) (Karte 74)
+Nahkampf (Karte 84)
+Rüpel aus dem Weg schieben (Karte 78)
+Zunächst mal den Mann mustern (Karte 69)
+Legt diese Karte aus damit ihr später Zugriff darauf habt.
+END
 
-ToDo: Gefährten
 
+VAR_CAPT: Prolog
+VAR_DESC: Schutzfeld gesprochen
+VAR_CARD: Karte 66
 
-Prolog
-**Karte 64**:
 Sihnafi sammelt erschrocken über die Anfeindung schon fast instinktiv magische Energie in ihrem innern und baut eine schützendes Feld um sich auf.
 
 Probe auf Kraft (Schutzfeld) den Magieeffekt zu bestimmen.
@@ -330,137 +419,129 @@ Der Mann stößt einen erschrockenen Schrei aus, dann zeigt er mit dem Finger au
 „Hexe!“, ruft er aus und stürmt wutentbrannt auf die Elfe zu.
 „Deiner Elfenhexerei werde ich Einhalt gebieten!“
 
-Weiter bei Karte 74.
+Weiter bei Karte 84.
+END
 
 
+VAR_CAPT: Prolog
+VAR_DESC: Druckwelle
+VAR_CARD: Karte 67
+ToDo: dann Kampf Karte 84
+END
 
 
-Prolog
-**Karte 65**:
-ToDo: Druckwelle, dann Kampf 74
+VAR_CAPT: Prolog
+VAR_DESC: Probe Geist Beeinflussen
+VAR_CARD: Karte 68
 
-Prolog
-**Karte 66**:
 Mache eine Probe auf Geist (Beeinflussung) 15.
-Gelingt sie geht es weiter auf Karte 71, ansonsten bei Karte 72.
+Gelingt sie geht es weiter auf Karte 81, ansonsten bei Karte 82.
 In jedem Fall markiere dass du Geistesmagie benutzt hast.
+END
 
 
-Prolog
-**Karte 67**:
+VAR_CAPT: Prolog
+VAR_DESC: Probe Sehen
+VAR_CARD: Karte 69
+
 Mache eine Probe auf Wahrnehmung (Sehen) 10.
-Gelingt sie geht es weiter auf Karte 68, ansonsten zurück zu Karte 60 bzw. Karte 63.
+Gelingt sie geht es weiter auf Karte 70, ansonsten zurück zu Karte 62 bzw. Karte 65.
 In jedem Fall markiere dass du Wahrnehmung benutzt hast.
+END
 
 
-Prolog
-**Karte 68**:
+VAR_CAPT: Prolog
+VAR_DESC: Probe Sehen gelungen
+VAR_CARD: Karte 70
+
 Der Mann wankt zwar leicht, er ist aber bei weitem nicht so sehr angetrunken wie du zuerst gedacht hast. Immer wieder huscht sein Blick zu Sihnafis spitzen Ohren.
 Mache eine Probe auf Kombinatorik (Absicht erkennen) 12.
-Probe gelungen: Karte 69, ansonsten zurück zu Karte 84 bzw. Karte 63.
+Probe gelungen: Karte 71, ansonsten zurück zu Karte 62 bzw. Karte 65.
 Markiere dir dass du Kombinatorik verwendet hast.
+END
 
 
-Prolog
-**Karte 69**:
+VAR_CAPT: Prolog
+VAR_DESC: Probe Absicht erkennen gelungen
+VAR_CARD: Karte 71
+
 Dieser Mann ist nicht einfach verärgert dass ihm jemand im weg stand, er hat etwas gegen Elfen!
 Damit könnte Diplomatie schwierig werden, aber besonders die geistige Beeinflussung mit Magie könnte das Gegenteil bewirken. Es wird schwerer sein in zu beeinflussen als gedacht und wenn dies mit Magie misslingt wird er vor Wut wohl kaum noch zu halten sein.
 
-Zurück zu Karte 84 bzw. Karte 63.
+Zurück zu Karte 61 bzw. Karte 65.
+END
 
 
-Prolog
-**Karte 70**:
-Pension Seeblick.
-ToDo: Text
+VAR_CAPT: Prolog
+VAR_DESC: Diplomatie Sihnafi gelungen
+VAR_CARD: Karte 72
 
-
-Prolog
-**Karte 71**:
-Du konzentrierst dich auf den Geist deines Gegenübers und sammelst die magische Kraft in deinem Inneren. Dann, in dem Moment in dem du dir sicher bist den Kontakt hergestellt zu haben suggerierst du ihm die Worte „Lass sie, sie ist den Ärger nicht wert!“
-
-Der Mann schaut dich weiter grimmig an und sagt „Geh mir aus den Augen Elf!“, und geht weiter.
-
-Ihr habt die Situation gelöst und erhaltet jeder 2 Trainingspunkte.
-Lest auf Karte 81 was es mit diesen Trainingspunkten auf sich hat, dann geht es weiter bei Karte 73.
-
-
-Prolog
-**Karte 72**:
-Du konzentrierst dich auf den Geist deines Gegenübers und sammelst die magische Kraft in deinem Inneren. Dann, in dem Moment in dem du dir sicher bist den Kontakt hergestellt zu haben suggerierst du ihm die Worte „Lass sie, sie ist den Ärger nicht wert!“
-
-Der Mann schaut dich verwundert an. Dann schüttelt er sich unvermittelt und Hass ist in seinen Augen zu sehen als er dich anfährt: „Du Hexe! Bleib aus meinem Kopf draußen Elfenhexe!“
-
-Mit diesen Worten holt er aus und es geht bei Karte 74 weiter.
-
-
-Prolog
-**Karte 73**:
-Ihr steht vor dem Wirt der euch erst bemerkt …
-ToDo: Zimmer gedönz
-
-
-Prolog
-**Karte 74**:
-ToDo: Waffenloser Kampf
-
-
-Prolog
-**Karte 75**:
 „Lohnt es sich wirklich mit mir jetzt streit anzufangen?“ fragt Sihnafi den Mann ganz direkt. „Vor der Tür auf dem Platz stehen zwei Wachen, der Wirt schaut ebenfalls schon her und er scheint ein kräftiger Kerl zu sein und ich bin nicht alleine sondern werde von drei Männern begleitet die sich mit Ärger auskennen.“ kurz wartet Sihnafi ab bevor sie hinzufügt „Ich persönlich habe übrigens gar kein Interesse an Ärger und ich nehme an das werden mir die Wachen auch glauben wenn sie mich befragen.“
 
 Der Mann mustert die Elfe eingehend. Sein Blick bleibt hart und verärgert. Dann entgegnet er „Du Elfenstück bist es nicht wert eine Nacht in der Zelle zu verbringen - geh mir aus dem Weg!“, damit stapft der Mann an Sihnafi vorbei ohne sie eines weiteren Blickes zu würdigen.
 
+Markiert auf der 62er Karte das Feld E1 und legt sie (und ggf. 65) ab.
+
 Ihr habt die Situation gelöst und erhaltet jeder 2 Trainingspunkte.
-Lest auf Karte 81 was es mit diesen Trainingspunkten auf sich hat, dann geht es weiter bei Karte 73.
+Lest auf Karte 77 was es mit diesen Trainingspunkten auf sich hat, dann geht es weiter bei Karte 83.
+END
 
 
-Prolog
-**Karte 76**:
+VAR_CAPT: Prolog
+VAR_DESC: Diplomatie Sihnafi vergeigt
+VAR_CARD: Karte 73
+
 „Lohnt es sich wirklich mit mir jetzt streit anzufangen?“ fragt Sihnafi den Mann ganz direkt. „Vor der Tür auf dem Platz stehen zwei Wachen, der Wirt schaut ebenfalls schon her und er scheint ein kräftiger Kerl zu sein und ich bin nicht alleine sondern werde von drei Männern begleitet die sich mit Ärger auskennen.“ kurz wartet Sihnafi ab bevor sie hinzufügt „Ich persönlich habe übrigens gar kein Interesse an Ärger und ich nehme an das werden mir die Wachen auch glauben wenn sie mich befragen.“
 
 Der Mann mustert die Elfe eingehend. Sein Blick bleibt hart und verärgert. Dann entgegnet er „Du Elfenstück! Ständig sagt ihr Drecks Elfen uns was wir zu tun und zu lassen haben! Dann verbringe ich eben eine nacht in der Zelle aber dir habe ich dann wenigstens ordentlich aufs Maul gehauen!“
 
-Weiter bei Karte 74.
+Weiter bei Karte 84.
+END
 
 
-Prolog
-**Karte 77**:
+VAR_CAPT: Prolog
+VAR_DESC: Probe Diplomatie
+VAR_CARD: Karte 74
+
 Lasst einen von euch eine Probe auf Kommunikation (Diplomatie) 12 machen.
-Gelingt sie geht es weiter auf Karte 78, ansonsten bei Karte 79.
+Gelingt sie geht es weiter auf Karte 75, ansonsten bei Karte 76.
 In jedem Fall markiert sich derjenige dass er Kommunikation benutzt hat.
+END
 
 
-Prolog
-**Karte 78**:
+VAR_CAPT: Prolog
+VAR_DESC: Diplomatie gelungen
+VAR_CARD: Karte 75
+
 Dass ihr zu viert zusammensteht scheint den Mann einzuschüchtern, dennoch schaut er euch weiterhin grimmig an.
 „Lohnt es sich wirklich mit uns jetzt Streit anzufangen? Vor der Tür auf dem Platz stehen zwei Wachen, der Wirt schaut ebenfalls schon her und er scheint ein kräftiger Kerl zu sein und wir sind zu viert und kennen uns mit Ärger aus.“ kurz wartet ihr ab bevor euer Sprecher hinzufügt „Ich persönlich habe übrigens gar kein Interesse an Ärger und ich nehme an das werden mir die Wachen auch glauben wenn sie mich befragen.“
 
-Der Mann mustert euern Sprecher und dann die Elfe eingehend. Sein Blick bleibt hart und verärgert. Dann entgegnet er „Das Elfenstück ist es nicht wert eine Nacht in der Zelle zu verbringen - geht mir aus dem Weg!“, damit stapft der Mann an Sihnafi und den anderen drei vorbei ohne euch eines weiteren Blickes zu würdigen.
+Der Mann mustert euren Sprecher und dann die Elfe eingehend. Sein Blick bleibt hart und verärgert. Dann entgegnet er „Das Elfenstück ist es nicht wert eine Nacht in der Zelle zu verbringen - geht mir aus dem Weg!“, damit stapft der Mann an Sihnafi und den anderen drei vorbei ohne euch eines weiteren Blickes zu würdigen.
+
+Markiert auf der 62er Karte das Feld E1 und legt sie (und ggf. 65) ab.
 
 Ihr habt die Situation gelöst und erhaltet jeder 2 Trainingspunkte.
-Lest auf Karte 81 was es mit diesen Trainingspunkten auf sich hat, dann geht es weiter bei Karte 73.
+Lest auf Karte 77 was es mit diesen Trainingspunkten auf sich hat, dann geht es weiter bei Karte 83.
+END
 
 
-Prolog
-**Karte 79**:
+VAR_CAPT: Prolog
+VAR_DESC: Diplomatie vergeigt
+VAR_CARD: Karte 76
+
 Dass ihr zu viert zusammensteht scheint den Mann einzuschüchtern, dennoch schaut er euch weiterhin grimmig an.
 „Lohnt es sich wirklich mit uns jetzt Streit anzufangen? Vor der Tür auf dem Platz stehen zwei Wachen, der Wirt schaut ebenfalls schon her und er scheint ein kräftiger Kerl zu sein und wir sind zu viert und kennen uns mit Ärger aus.“ kurz wartet ihr ab bevor euer Sprecher hinzufügt „Ich persönlich habe übrigens gar kein Interesse an Ärger und ich nehme an das werden mir die Wachen auch glauben wenn sie mich befragen.“
 
-Der Mann mustert euern Sprecher und dann die Elfe eingehend. Sein Blick bleibt hart und verärgert. Dann entgegnet er „Du Elfenstück! Ständig sagt ihr uns was wir zu tun und zu lassen haben und nun hast du sogar deine Lakaien dabei die sich von dir rumkommandieren lassen! Dann verbringe ich eben eine Nacht in der Zelle, aber dir habe ich dann wenigstens ordentlich aufs Maul gehauen!“
+Der Mann mustert euren Sprecher und dann die Elfe eingehend. Sein Blick bleibt hart und verärgert. Dann entgegnet er „Du Elfenstück! Ständig sagt ihr uns was wir zu tun und zu lassen haben und nun hast du sogar deine Lakaien dabei die sich von dir rumkommandieren lassen! Dann verbringe ich eben eine Nacht in der Zelle, aber dir habe ich dann wenigstens ordentlich aufs Maul gehauen!“
 
-Weiter bei Karte 74.
-
-
-
-Prolog
-**Karte 80**:
-Tagelöhner Unterkünfte.
-ToDo: Text
+Weiter bei Karte 84.
+END
 
 
-Prolog
-**Karte 81**: Trainingspunkte
+VAR_CAPT: Prolog
+VAR_DESC: Trainingspunkte Erklärt
+VAR_CARD: Karte 77
+Trainingspunkte
 Ihr habt nicht nur eure Fähigkeiten genutzt, ihr habt auch Erfahrung in der Welt gesammelt.
 Immer wenn dem so ist werdet ihr mit Trainingspunkten belohnt.
 Diese Punkte könnt ihr verwenden um in benutzten Fähigkeiten besser zu werden.
@@ -471,50 +552,85 @@ Ihr müsst eine Fähigkeit 3 mal erfolgreich trainieren, dann geht der Rang um e
 Der Wert den ihr bei der Fähigkeit habt ergibt sich aus dem Rang und etwaigen Boni - d.h ihr seid dann in der Fähigkeit um 1 besser geworden.
 
 Diese Karte nehmt ihr an euch und behaltet sie.
+END
 
 
+VAR_CAPT: Prolog
+VAR_DESC: Rüpel aus dem Weg schieben
+VAR_CARD: Karte 78
 ToDo:
-Nahkampf (Karte 82)
-Rüpel aus dem Weg schieben (Karte 83)
+END
 
 
+VAR_CAPT: Prolog
+VAR_DESC: Pension Seeblick
+VAR_CARD: Karte 80
+ToDo: Text
+END
 
 
-Prolog
-**Karte 84**:
-ToDo: Text Tisch suchen und Zeug da lassen
+VAR_CAPT: Prolog
+VAR_DESC: Geist beeinflussen gelungen
+VAR_CARD: Karte 81
 
-Weiter bei Karte 85.
+Du konzentrierst dich auf den Geist deines Gegenübers und sammelst die magische Kraft in deinem Inneren. Dann, in dem Moment in dem du dir sicher bist den Kontakt hergestellt zu haben suggerierst du ihm die Worte „Lass sie, sie ist den Ärger nicht wert!“
 
+Der Mann schaut dich weiter grimmig an und sagt „Geh mir aus den Augen Elf!“, und geht weiter.
 
-Prolog
-**Karte 85**:
-E1:  
+Markiert auf der 62er Karte das Feld E1 und legt sie (und ggf. 65) ab.
 
-Ist E1 bereits angekreuzt? Dann weiter bei Karte 86
-Ansonsten geht es hier weiter:
-
-Als ihr euch vor zur Theke begeben wollt rempelt ein Betrunkener großer Kerl Sihnafi an.
-„He du Elfenschlampe, steh mir nicht im Weg!“, herrscht er Sihnafi an und schubst sie aufgebracht zur Seite.
-Wie willst du reagieren Sihnafi?
-Kommunikation (Diplomatie) (Karte 61)
-Nahkampf (Karte 62)
-Deine Gefährten auffordernd anblicken (Karte 63)
-Schutzfeld aufbauen (Karte 64)
-Mit Druckwelle aus dem Weg schieben (Karte 65)
-Betrunken wie der Mann ist sollte sein Geist leicht mit Magie beeinflußbar sein (Karte 66)
-Zunächst mal den Mann mustern (Karte 67)
-
-Legt diese Karte aus damit ihr später Zugriff darauf habt.
+Ihr habt die Situation gelöst und erhaltet jeder 2 Trainingspunkte.
+Lest auf Karte 77 was es mit diesen Trainingspunkten auf sich hat, dann geht es weiter bei Karte 83.
+END
 
 
+VAR_CAPT: Prolog
+VAR_DESC: Geist beeinflussen vergeigt
+VAR_CARD: Karte 82
 
-Prolog
-**Karte 86**:
-ToDo: Essen schlafen Abreisen
+Du konzentrierst dich auf den Geist deines Gegenübers und sammelst die magische Kraft in deinem Inneren. Dann, in dem Moment in dem du dir sicher bist den Kontakt hergestellt zu haben suggerierst du ihm die Worte „Lass sie, sie ist den Ärger nicht wert!“
+
+Der Mann schaut dich verwundert an. Dann schüttelt er sich unvermittelt und Hass ist in seinen Augen zu sehen als er dich anfährt: „Du Hexe! Bleib aus meinem Kopf draußen Elfenhexe!“
+
+Mit diesen Worten holt er aus und es geht bei Karte 84 weiter.
+END
+
+
+VAR_CAPT: Prolog
+VAR_DESC: Zimmer im Schimmel bestellen
+VAR_CARD: Karte 83
+
+Ihr steht vor dem Wirt der euch erst bemerkt …
+ToDo: Zimmer gedönz
+END
+
+
+VAR_CAPT: Prolog
+VAR_DESC: Waffenloser Kampf
+VAR_CARD: Karte 84
+ToDo
+END
+
+
+VAR_CAPT: Prolog
+VAR_DESC: Nahkampf erklärt
+VAR_CARD: Karte 85
+ToDo:
+END
+
+
+VAR_CAPT: Prolog
+VAR_DESC: Tagelöhner Unterkünfte
+VAR_CARD: Karte 90
+ToDo:
+END
+
+
+VAR_CAPT: Prolog
+VAR_DESC: Essen Schlafen Abreisen
+VAR_CARD: Karte 100
+ToDo
+END
+
 
 Kapitel 1: Die Reise nach Geberacht
-
-
-Kapitel 1
-**Karte 1**:
