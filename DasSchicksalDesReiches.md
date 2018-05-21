@@ -78,6 +78,7 @@ VAR_CAPT: Prolog
 VAR_DESC: Erfolg Wahrnehmung - Erster Hinweis auf KFK
 VAR_CARD: Karte 5
 Auf der Rückseite von Erans Statue am Sockel ist im Schatten ein kleines Symbol zu sehen:
+[IMG]KFK_Symbol.png[/IMG]
 Unter dem Zeichen sind mit grüner Farbe die Buchstaben „VKIU“ und daneben mit der selben Farbe die Buchstaben „KFK“ zu erkennen.
 Leider sagen euch diese Buchstaben und das Symbol nichts und verwundert und kopfschüttelnd tretet ihr wieder vor die Statue.
 
@@ -608,6 +609,10 @@ END
 VAR_CAPT: Prolog
 VAR_DESC: Waffenloser Kampf
 VAR_CARD: Karte 84
+
+Bitte nehmt die Bodenplatte "Wirtshaus zum Schimmel" zur Hand und stellt eure Figuren an die angegebenen Positionen.
+Bodenplatte erstellt von Mike aka Mappy von http://forum.profantasy.com/comments.php?DiscussionID=5176/
+
 ToDo
 END
 
